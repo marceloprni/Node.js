@@ -1,0 +1,20 @@
+Precisamos, inicialmente, instalar o gerador do Express, que é um módulo. No terminal, 
+o comando ​ ​npm install express-generator -g​ ​ faz essa instalação. Observe que desta 
+vez utilizamos uma flag ​ ​-g​ ​, que indica que o módulo gerador será instalado globalmente.
+
+npm intall express-generator -g 
+npm install 
+
+retirar os arquivo do basta bin e colocar em um arquivo server.js fora da pasta.
+
+npm install nodemon
+
+
+Em seguida, inserimos o comando ​ ​set DEBUG=app:server​ ​, 
+que vai configurar a variável ambiente ​ ​DEBUG​ ​ para acionar o recurso de depuração
+
+Colocar esse comando no arquivo package.json 
+
+
+"start": "node ./server"
+rodar app npm run start
